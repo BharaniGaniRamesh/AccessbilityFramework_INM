@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="genericLib.ListnersImplementation">
+		</listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="scripts.Extensions" />
+			<class name="scripts.MyProfile" />
+			<class name="scripts.Quiz" />
+			<class name="scripts.TimeSheet" />
+			<class name="scripts.TrainingSessions" />
+			<class name="scripts.PolicyAndProcedure" />
+			<class name="scripts.Rave" />
+			<class name="scripts.PhotosAndVideos" />
+			<class name="scripts.MyRequests" />
+			<class name="scripts.MyspaceLogin" />
+			<class name="scripts.OrgChart" />
+			<class name="scripts.USOpeRequirements" />
+			<class name="scripts.Payslips" />
+			<class name="scripts.BrandingAndMarketing" />
+			<class name="scripts.Holidays" />
+			<class name="awards.Awards" />
+			<class name="awards.CPRChampions" />
+			<class name="awards.HallOfFame" />
+			<class name="clientAccolades.ClientAccolades" />
+			<class name="documents.Documents" />
+			<class name="performance_Appraisals.Goals" />
+			<class name="performance_Appraisals.PerformanceAppraisals" />
+			<class name="performance_Appraisals.SelfAppraisal" />
+			<class name="performance_Appraisals.SelfAppraisalHistory" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
